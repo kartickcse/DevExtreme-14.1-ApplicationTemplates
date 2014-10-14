@@ -290,6 +290,13 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/com.devexpress.plugins.devextremeaddon/www/devextremeaddon.js",
+        "id": "com.devexpress.plugins.devextremeaddon.DevExtremeAddon",
+        "clobbers": [
+            "window.devextremeaddon"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.file/www/DirectoryEntry.js",
         "id": "org.apache.cordova.file.DirectoryEntry",
         "clobbers": [
@@ -443,6 +450,7 @@ module.exports.metadata =
     "org.apache.cordova.dialogs": "0.2.10",
     "org.apache.cordova.splashscreen": "0.3.3",
     "org.apache.cordova.vibration": "0.3.11",
+    "com.devexpress.plugins.devextremeaddon": "1.0.1",
     "org.apache.cordova.file": "1.3.1"
 }
 // BOTTOM OF METADATA

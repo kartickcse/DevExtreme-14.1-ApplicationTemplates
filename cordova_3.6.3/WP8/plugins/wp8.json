@@ -75,6 +75,10 @@
                         {
                             "xml": "<feature name=\"Vibration\"><param name=\"wp-package\" value=\"Vibration\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"DevExtremeAddon\"><param name=\"wp-package\" value=\"DevExtremeAddon\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -178,6 +182,9 @@
         },
         "org.apache.cordova.vibration": {
             "PACKAGE_NAME": "{d11c66e0-52e7-11e4-aa9d-0559069323e0}"
+        },
+        "com.devexpress.plugins.devextremeaddon": {
+            "PACKAGE_NAME": "{b0734120-4d60-11e4-9a39-61e4a0e859b6}"
         }
     },
     "dependent_plugins": {

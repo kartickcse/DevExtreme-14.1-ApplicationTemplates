@@ -61,4 +61,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <feature name="DevExtremeAddon">
+        <param name="wp-package" value="DevExtremeAddon" />
+    </feature>
 </widget>

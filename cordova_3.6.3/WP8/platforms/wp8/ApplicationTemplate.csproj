@@ -332,4 +332,7 @@
         <Compile Include="Plugins\org.apache.cordova.vibration\Vibration.cs" />
     </ItemGroup>
     <ItemGroup />
+    <ItemGroup>
+        <Compile Include="Plugins\com.devexpress.plugins.devextremeaddon\DevExtremeAddon.cs" />
+    </ItemGroup>
 </Project>
