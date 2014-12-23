@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		088F484B83BF47668423EB31 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF50A578AE4174B12917BA /* CDVNotification.m */; };
 		0ED96DC46EC049CA9038E8FA /* CDVAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A093300A4FB4EBCA0BDC97A /* CDVAccelerometer.m */; };
@@ -14,7 +13,6 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
 		2400C765A68D42D48F6F9A0F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4C672A48334395BF203A70 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		28110669E68042A6BA9B20B7 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F2871FDBD045B3B0BAB90C /* CDVSplashScreen.m */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28EEC709444848EC8E1E50DA /* CDVCapture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 432510D89F0D45B2ABA59A27 /* CDVCapture.bundle */; };
 		2C399E9ED2924BDA84F86695 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7298CE32DF4552B13FC728 /* CDVLocation.m */; };
@@ -63,6 +61,7 @@
 		EEAC827A700640098501DEDA /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57697E9FB0134284B3D948F0 /* AddressBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F91A5492B9D84422AE2D576B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D8E2636ED9436991D61934 /* CoreLocation.framework */; };
 		FFA4E3996B334F7C932C0CA6 /* CDVCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = B1572363A0FF4206A4FBE42C /* CDVCapture.m */; };
+		96009D826D49423BBFD42902 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D7CFD276DB44268659CA06 /* CDVSplashScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +173,8 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ApplicationTemplate/config.xml; sourceTree = "<group>"; };
 		FEFC35F2CB6C4E0C88B12A8A /* CDVContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVContacts.h; path = org.apache.cordova.contacts/CDVContacts.h; sourceTree = "<group>"; };
+		C5D7CFD276DB44268659CA06 /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "Plugins\org.apache.cordova.splashscreen\CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		30CAFFDA5CE34ADB9F453B7F /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "Plugins\org.apache.cordova.splashscreen\CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,6 +358,8 @@
 				8B2CEFA1290C49C1A9CF3AF4 /* CDVSplashScreen.h */,
 				4B7E792687D44D778F2DDC3E /* CDVVibration.m */,
 				77883FA67C1F46B282E1102F /* CDVVibration.h */,
+				C5D7CFD276DB44268659CA06 /* CDVSplashScreen.m */,
+				30CAFFDA5CE34ADB9F453B7F /* CDVSplashScreen.h */,
 			);
 			name = Plugins;
 			path = ApplicationTemplate/Plugins;
@@ -557,8 +560,8 @@
 				A5E0EAE79F724C8291F4D56F /* CDVConnection.m in Sources */,
 				35F240F79CA14BD18D65B94D /* CDVReachability.m in Sources */,
 				088F484B83BF47668423EB31 /* CDVNotification.m in Sources */,
-				28110669E68042A6BA9B20B7 /* CDVSplashScreen.m in Sources */,
 				BC7E78F78B7F46DFA55337A6 /* CDVVibration.m in Sources */,
+				96009D826D49423BBFD42902 /* CDVSplashScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

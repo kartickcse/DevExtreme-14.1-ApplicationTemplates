@@ -77,11 +77,11 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "xml": "<feature name=\"Vibration\"><param name=\"ios-package\" value=\"CDVVibration\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Vibration\"><param name=\"ios-package\" value=\"CDVVibration\" /></feature>",
+                            "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -209,10 +209,10 @@
         "org.apache.cordova.dialogs": {
             "PACKAGE_NAME": "ApplicationTemplate"
         },
-        "org.apache.cordova.splashscreen": {
+        "org.apache.cordova.vibration": {
             "PACKAGE_NAME": "ApplicationTemplate"
         },
-        "org.apache.cordova.vibration": {
+        "org.apache.cordova.splashscreen": {
             "PACKAGE_NAME": "ApplicationTemplate"
         }
     },

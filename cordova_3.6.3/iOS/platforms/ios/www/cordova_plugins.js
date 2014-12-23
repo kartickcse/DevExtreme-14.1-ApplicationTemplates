@@ -317,18 +317,18 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/org.apache.cordova.splashscreen/www/splashscreen.js",
-        "id": "org.apache.cordova.splashscreen.SplashScreen",
-        "clobbers": [
-            "navigator.splashscreen"
-        ]
-    },
-    {
         "file": "plugins/org.apache.cordova.vibration/www/vibration.js",
         "id": "org.apache.cordova.vibration.notification",
         "merges": [
             "navigator.notification",
             "navigator"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.splashscreen/www/splashscreen.js",
+        "id": "org.apache.cordova.splashscreen.SplashScreen",
+        "clobbers": [
+            "navigator.splashscreen"
         ]
     },
     {
@@ -496,8 +496,8 @@ module.exports.metadata =
     "org.apache.cordova.media": "0.2.13",
     "org.apache.cordova.network-information": "0.2.12",
     "org.apache.cordova.dialogs": "0.2.10",
-    "org.apache.cordova.splashscreen": "0.3.3",
     "org.apache.cordova.vibration": "0.3.11",
+    "org.apache.cordova.splashscreen": "0.3.4",
     "org.apache.cordova.file": "1.3.1"
 }
 // BOTTOM OF METADATA
