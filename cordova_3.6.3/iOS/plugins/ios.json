@@ -81,6 +81,18 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"StatusBar\"><param name=\"ios-package\" onload=\"true\" value=\"CDVStatusBar\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"StatusBarOverlaysWebView\" value=\"false\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"StatusBarBackgroundColor\" value=\"#000000\" />",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         }
@@ -210,6 +222,9 @@
             "PACKAGE_NAME": "ApplicationTemplate"
         },
         "org.apache.cordova.vibration": {
+            "PACKAGE_NAME": "ApplicationTemplate"
+        },
+        "com.phonegap.plugin.statusbar": {
             "PACKAGE_NAME": "ApplicationTemplate"
         },
         "org.apache.cordova.splashscreen": {
